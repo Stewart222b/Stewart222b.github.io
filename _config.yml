@@ -18,20 +18,51 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Xinhang Li
-email: xinli071@outlook.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+
+  
+author:
+  name: "Larry"
+  avatar: "/assets/images/pengu_32pxl.jpg"
+  bio: "I am an **amazing** person." # Note: Markdown is allowed
+  location: "Shanghai, CN"
+  links:
+    - label: "Made Mistakes"
+      icon: "fas fa-fw fa-link"
+      url: "https://mademistakes.com"
+    - label: "WeChat"
+      #icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mmistakes"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mmistakes"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mmistakes"
+
+title: Stewart222b # 网站标题
+subtitle: "A little bit about me" # 网站副标题
+email: xinli071@outlook.com # 邮箱
+
+description: "A flexible Jekyll theme for your blog or site with a minimalist aesthetic." # 描述
+#description: >- # this means to ignore newlines until "baseurl:"
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  stewart222b
+
+logo: /assets/images/pengu_32pxl.jpg
+
+masthead_title: "About"
+masthead_subtitle: "A little bit about me"
 
 # Build settings
-#theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll # Used for testing local development
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 plugins:
   - jekyll-feed
   - jekyll-include-cache
