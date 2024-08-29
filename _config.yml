@@ -18,23 +18,25 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-
-  
 author:
   name: "Larry"
   avatar: "/assets/images/pengu_32pxl.jpg"
   bio: "I am an **amazing** person." # Note: Markdown is allowed
-  location: "Shanghai, CN"
+  # location: "Shanghai, CN"
+  #  - url: "https://en.wikipedia.org/wiki/Shanghai"
   links:
+    - label: "Shanghai, CN"
+      icon: "fas fa-fw fa-location-dot"
+      url: "https://en.wikipedia.org/wiki/Shanghai"
     - label: "Made Mistakes"
       icon: "fas fa-fw fa-link"
       url: "https://mademistakes.com"
     - label: "WeChat"
-      #icon: "fab fa-fw fa-twitter-square"
+      icon: "fa-brands fa-weixin"
       url: "https://twitter.com/mmistakes"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/Stewart222b"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/mmistakes"

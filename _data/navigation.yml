@@ -1,0 +1,10 @@
+main:
+  - title: "Test_1"
+    url: /docs/
+  - title: "Test_2"
+    url: /year-archive/
+  - title: "Test_3"
+    url: /categories/
+  - title: ""
+    url: https://google.com
+    target: _blank
