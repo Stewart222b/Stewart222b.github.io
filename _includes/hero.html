@@ -3,10 +3,9 @@
     src="{{ site.author.avatar | relative_url }}" 
     alt="{{ site.author.name }}" 
     class="hero-avatar"
-    data-i18n-attr="alt:about.intro"
   >
-  <h1 class="hero-title" data-i18n="hero.greeting">{{ site.author.name }}</h1>
-  <p class="hero-subtitle" data-i18n="hero.tagline">{{ site.subtitle }}</p>
-  <p class="hero-description" data-i18n="hero.description">{{ site.author.bio }}</p>
-  <a href="#about" class="hero-cta" data-i18n="hero.cta">Learn More</a>
+  <h1 class="hero-title">{{ site.author.name }}</h1>
+  <p class="hero-subtitle">{{ site.subtitle }}</p>
+  <p class="hero-description">{{ site.author.bio | replace: '**', '' }}</p>
+  <a href="#about" class="hero-cta"><span data-i18n="hero.cta">Learn More</span></a>
 </section>
