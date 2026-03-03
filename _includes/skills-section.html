@@ -1,0 +1,17 @@
+<section class="skills-section" id="skills">
+  <h2 class="section-title" data-i18n="skills.title">Skills & Experience</h2>
+  <div class="skills-container">
+    {% for category in site.data.skills.categories %}
+    <div class="skills-category">
+      <h3 class="skills-category-title">
+        {% if site.lang == 'zh' %}{{ category.name.zh }}{% else %}{{ category.name.en }}{% endif %}
+      </h3>
+      <div class="skills-grid">
+        {% for skill in category.skills %}
+        <span class="skill-item">{{ skill }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

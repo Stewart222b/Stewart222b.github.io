@@ -1,0 +1,46 @@
+{
+  "site": {
+    "title": "Stewart222b",
+    "subtitle": "关于我的一切"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "projects": "项目",
+    "skills": "技能",
+    "contact": "联系"
+  },
+  "hero": {
+    "greeting": "你好，我是 Larry",
+    "tagline": "欢迎来到我的个人网站",
+    "description": "一位来自上海的热爱开发的程序员",
+    "cta": "了解更多"
+  },
+  "about": {
+    "title": "关于我",
+    "intro": "你好，我是 Larry",
+    "description": "我是一位充满热情的开发者，喜欢通过代码将想法变为现实。",
+    "location": "中国上海",
+    "email": "邮箱"
+  },
+  "projects": {
+    "title": "我的项目",
+    "view": "查看项目",
+    "github": "GitHub"
+  },
+  "skills": {
+    "title": "技能与经验",
+    "frontend": "前端",
+    "backend": "后端",
+    "tools": "工具"
+  },
+  "contact": {
+    "title": "联系我",
+    "description": "欢迎任何合作机会或只是一起聊聊",
+    "email": "发邮件",
+    "social": "关注我"
+  },
+  "footer": {
+    "copyright": "保留所有权利。"
+  }
+}

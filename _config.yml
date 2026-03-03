@@ -1,0 +1,62 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that.
+
+# Site settings
+author:
+  name: "Larry"
+  avatar: "/assets/images/pengu_32pxl.jpg"
+  bio: "I am a passionate developer with a keen interest in building innovative solutions. I love turning ideas into reality through code."
+  location: "Shanghai, CN"
+
+links:
+  - label: "Shanghai, CN"
+    icon: "fas fa-fw fa-location-dot"
+    url: "https://en.wikipedia.org/wiki/Shanghai"
+  - label: "GitHub"
+    icon: "fab fa-fw fa-github"
+    url: "https://github.com/Stewart222b"
+
+title: Stewart222b
+subtitle: "A little bit about me"
+email: xinli071@outlook.com
+lang: en
+
+description: "A personal portfolio website for Larry - Developer, Creator, Innovator"
+
+baseurl: "" 
+url: "https://stewart222b.github.io"
+github_username: stewart222b
+
+logo: /assets/images/pengu_32pxl.jpg
+
+# Build settings
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "aqua"
+
+# Custom CSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Default to Minima's comments (disabled by default)
+comments:
+  provider: false
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

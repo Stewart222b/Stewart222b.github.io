@@ -1,0 +1,31 @@
+categories:
+  - name:
+      en: "Frontend"
+      zh: "前端"
+    skills:
+      - HTML
+      - CSS
+      - JavaScript
+      - TypeScript
+      - React
+      - Vue.js
+      
+  - name:
+      en: "Backend"
+      zh: "后端"
+    skills:
+      - Node.js
+      - Python
+      - Java
+      - Go
+      - REST API
+      
+  - name:
+      en: "Tools & Others"
+      zh: "工具和其他"
+    skills:
+      - Git
+      - Docker
+      - Linux
+      - VS Code
+      - Figma

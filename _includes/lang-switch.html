@@ -1,0 +1,11 @@
+{% if site.lang == 'zh' %}
+<a href="{{ site.url }}{{ site.baseurl }}/" class="lang-switch">
+  <button data-lang="en">EN</button>
+  <button data-lang="zh" class="active">中文</button>
+</a>
+{% else %}
+<a href="{{ site.url }}{{ site.baseurl }}/" class="lang-switch">
+  <button data-lang="en" class="active">EN</button>
+  <button data-lang="zh">中文</button>
+</a>
+{% endif %}

@@ -1,0 +1,21 @@
+main:
+  - title:
+      en: "Home"
+      zh: "首页"
+    url: /
+  - title:
+      en: "About"
+      zh: "关于"
+    url: /#about
+  - title:
+      en: "Projects"
+      zh: "项目"
+    url: /#projects
+  - title:
+      en: "Skills"
+      zh: "技能"
+    url: /#skills
+  - title:
+      en: "Contact"
+      zh: "联系"
+    url: /#contact

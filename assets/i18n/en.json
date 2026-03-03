@@ -1,0 +1,46 @@
+{
+  "site": {
+    "title": "Stewart222b",
+    "subtitle": "A little bit about me"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Larry",
+    "tagline": "Welcome to my personal website",
+    "description": "A passionate developer from Shanghai",
+    "cta": "Learn More"
+  },
+  "about": {
+    "title": "About Me",
+    "intro": "Hi, I'm Larry",
+    "description": "I am a passionate developer with a keen interest in building innovative solutions. I love turning ideas into reality through code.",
+    "location": "Shanghai, CN",
+    "email": "Email"
+  },
+  "projects": {
+    "title": "My Projects",
+    "view": "View Project",
+    "github": "GitHub"
+  },
+  "skills": {
+    "title": "Skills & Experience",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Tools"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Feel free to reach out for collaborations or just a friendly chat",
+    "email": "Email Me",
+    "social": "Follow Me"
+  },
+  "footer": {
+    "copyright": "All rights reserved."
+  }
+}

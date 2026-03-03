@@ -1,0 +1,39 @@
+projects:
+  - title:
+      en: "Project One"
+      zh: "项目一"
+    description:
+      en: "A brief description of this project. It showcases key features and technologies used."
+      zh: "这个项目的简要描述。展示主要功能和技术栈。"
+    tags:
+      - React
+      - Node.js
+      - MongoDB
+    github: "https://github.com/Stewart222b"
+    demo: ""
+    
+  - title:
+      en: "Project Two"
+      zh: "项目二"
+    description:
+      en: "Another project that demonstrates my skills in full-stack development."
+      zh: "另一个展示我全栈开发技能的项目。"
+    tags:
+      - Vue.js
+      - Python
+      - PostgreSQL
+    github: "https://github.com/Stewart222b"
+    demo: ""
+    
+  - title:
+      en: "Project Three"
+      zh: "项目三"
+    description:
+      en: "A side project exploring new technologies and best practices."
+      zh: "一个探索新技术和最佳实践的副项目。"
+    tags:
+      - TypeScript
+      - Docker
+      - AWS
+    github: "https://github.com/Stewart222b"
+    demo: ""
