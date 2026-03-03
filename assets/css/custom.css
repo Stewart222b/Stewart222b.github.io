@@ -1,45 +1,14 @@
-/* ========================================
-   Modern Portfolio Styles - Enhanced
-   ======================================== */
-
-/* CSS Variables - Modern Color Palette */
-:root {
-  --primary-color: #6366f1;
-  --primary-dark: #4f46e5;
-  --primary-light: #818cf8;
-  --secondary-color: #0ea5e9;
-  --accent-color: #f472b6;
-  
-  --text-primary: #1e293b;
-  --text-secondary: #64748b;
-  --text-muted: #94a3b8;
-  
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8fafc;
-  --bg-gradient-start: #f0f9ff;
-  --bg-gradient-end: #e0e7ff;
-  
-  --card-bg: #ffffff;
-  --card-border: rgba(148, 163, 184, 0.2);
-  
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
-  --shadow-md: 0 4px 20px rgba(99, 102, 241, 0.12);
-  --shadow-lg: 0 10px 40px rgba(99, 102, 241, 0.18);
-  --shadow-hover: 0 20px 40px rgba(99, 102, 241, 0.25);
-  
-  --link-color: #6366f1;
-  --border-color: #e2e8f0;
-  --background-color: #f8fafc;
-  
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 20px;
-  --radius-xl: 28px;
-  
-  --transition-fast: 0.2s ease;
-  --transition-normal: 0.3s ease;
-  --transition-slow: 0.5s ease;
+/* Desktop styles - ensure full width */
+.page-content,
+.archive,
+main {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
+
+
 
 /* ========================================
    Language Switcher - Floating Style
@@ -641,6 +610,47 @@
     padding: 14px 28px;
   }
 }
+
+/* Desktop styles - ensure proper desktop layout */
+@media (min-width: 1024px) {
+  .hero-section {
+    padding: 140px 40px 100px;
+    min-height: 80vh;
+  }
+  
+  .hero-title {
+    font-size: 4rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.75rem;
+  }
+  
+  .hero-description {
+    font-size: 1.25rem;
+    max-width: 700px;
+  }
+  
+  .about-content,
+  .projects-grid,
+  .skills-container {
+    max-width: 1200px;
+  }
+  
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 36px;
+  }
+  
+  .project-card {
+    padding: 4px;
+  }
+  
+  .project-content {
+    padding: 32px;
+  }
+}
+
 
 /* ========================================
    Selection & Scrollbar
