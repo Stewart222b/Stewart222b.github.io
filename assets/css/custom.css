@@ -7,38 +7,6 @@
   display: none !important;
 }
 
-/* Top Navigation Bar */
-.top-nav {
-  display: flex;
-  gap: 8px;
-  padding: 16px 0;
-  margin-bottom: 20px;
-  border-bottom: 1px solid var(--border-color);
-}
-
-.nav-item {
-  padding: 8px 20px;
-  color: var(--text-secondary);
-  text-decoration: none;
-  font-size: 0.95rem;
-  font-weight: 500;
-  border-radius: var(--radius-md);
-  transition: all var(--transition-fast);
-}
-
-.nav-item:hover {
-  background: var(--bg-secondary);
-  color: var(--accent-color);
-}
-
-.nav-item.active {
-  background: var(--accent-color);
-  color: #fff;
-}
-
-/* 
-
-/* 
 /* ========================================
    Academic/Professional Portfolio Style
    ======================================== */
@@ -107,12 +75,48 @@ body {
   top: 0;
 }
 
-/* Main Content */
+/* ========================================
+   Main Content Area
+   ======================================== */
 .main-content {
   flex: 1;
   margin-left: 280px;
   padding: 40px 60px;
   max-width: calc(100% - 280px);
+}
+
+/* Top Navigation Bar */
+.top-nav {
+  display: flex;
+  gap: 8px;
+  padding: 0 0 20px 0;
+  margin-bottom: 30px;
+  border-bottom: 1px solid var(--border-color);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav-item {
+  padding: 8px 20px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+  display: inline-block;
+  height: auto;
+}
+
+.nav-item:hover {
+  background: var(--bg-secondary);
+  color: var(--accent-color);
+}
+
+.nav-item.active {
+  background: var(--accent-color);
+  color: #fff;
 }
 
 /* ========================================
@@ -578,6 +582,15 @@ body {
   .profile-image {
     width: 120px;
     height: 120px;
+  }
+  
+  .top-nav {
+    justify-content: center;
+  }
+  
+  .nav-item {
+    font-size: 0.85rem;
+    padding: 6px 12px;
   }
 }
 
