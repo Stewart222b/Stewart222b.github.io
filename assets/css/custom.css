@@ -2,9 +2,41 @@
 .masthead,
 .site-nav,
 .navigation,
-.top-bar {
+.top-bar,
+.sidebar .site-nav {
   display: none !important;
 }
+
+/* Top Navigation Bar */
+.top-nav {
+  display: flex;
+  gap: 8px;
+  padding: 16px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.nav-item {
+  padding: 8px 20px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+}
+
+.nav-item:hover {
+  background: var(--bg-secondary);
+  color: var(--accent-color);
+}
+
+.nav-item.active {
+  background: var(--accent-color);
+  color: #fff;
+}
+
+/* 
 
 /* 
 /* ========================================
@@ -427,6 +459,95 @@ body {
   text-decoration: none;
 }
 
+/* Home Section */
+.home-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.welcome-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 30px;
+}
+
+.welcome-text {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+  line-height: 1.8;
+}
+
+.welcome-text strong {
+  color: var(--text-primary);
+}
+
+.home-links {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 32px;
+  background: var(--accent-color);
+  color: #fff !important;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all var(--transition-fast);
+}
+
+.cta-button:hover {
+  background: var(--link-hover);
+  transform: translateY(-2px);
+}
+
+.cta-button.secondary {
+  background: var(--bg-secondary);
+  color: var(--text-primary) !important;
+  border: 1px solid var(--border-color);
+}
+
+.cta-button.secondary:hover {
+  background: var(--bg-tertiary);
+  border-color: var(--accent-color);
+}
+
+/* Sidebar Contact Info */
+.sidebar-contact {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.sidebar-contact p {
+  margin: 8px 0;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.sidebar-contact a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.sidebar-contact a:hover {
+  text-decoration: underline;
+}
+
+.sidebar-contact i {
+  width: 20px;
+  color: var(--accent-color);
+}
+
+/* 
 /* ========================================
    Responsive Design
    ======================================== */

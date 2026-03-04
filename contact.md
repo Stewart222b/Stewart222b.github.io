@@ -1,10 +1,17 @@
-<section class="content-section" id="contact">
-  <h2 class="section-title" data-i18n="contact.title">Contact</h2>
-  <p data-i18n="contact.description">Feel free to reach out for collaborations or just a friendly chat.</p>
+---
+layout: page
+title: Contact
+permalink: /contact/
+---
+
+<section class="content-section">
+  <h2 class="section-title">Get In Touch</h2>
+  <p class="about-text">Feel free to reach out for collaborations or just a friendly chat.</p>
+  
   <div class="contact-links">
     <a href="mailto:{{ site.email }}" class="contact-link">
       <i class="fas fa-envelope"></i>
-      <span data-i18n="contact.email">Email</span>
+      <span>Email</span>
     </a>
     {% if site.github_username %}
     <a href="https://github.com/{{ site.github_username }}" target="_blank" class="contact-link">

@@ -1,14 +1,16 @@
-<section class="content-section" id="projects">
-  <h2 class="section-title" data-i18n="projects.title">Projects</h2>
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
+<section class="content-section">
+  <h2 class="section-title">Projects</h2>
   <div class="projects-grid">
     {% for project in site.data.portfolio.projects %}
     <div class="project-card">
-      <h3 class="project-title">
-        {% if site.lang == 'zh' %}{{ project.title.zh }}{% else %}{{ project.title.en }}{% endif %}
-      </h3>
-      <p class="project-description">
-        {% if site.lang == 'zh' %}{{ project.description.zh }}{% else %}{{ project.description.en }}{% endif %}
-      </p>
+      <h3 class="project-title">{{ project.title.en }}</h3>
+      <p class="project-description">{{ project.description.en }}</p>
       <div class="project-tags">
         {% for tag in project.tags %}
         <span class="project-tag">{{ tag }}</span>
