@@ -11,9 +11,6 @@ author:
   location: "Shanghai, CN"
 
 links:
-  - label: "Shanghai, CN"
-    icon: "fas fa-fw fa-location-dot"
-    url: "https://en.wikipedia.org/wiki/Shanghai"
   - label: "GitHub"
     icon: "fab fa-fw fa-github"
     url: "https://github.com/Stewart222b"
@@ -31,9 +28,12 @@ github_username: stewart222b
 
 logo: /assets/images/pengu_32pxl.jpg
 
+# Hide default masthead navigation
+masthead: false
+
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin: "aqua"
+minimal_mistakes_skin: "default"
 
 # Custom CSS
 sass:

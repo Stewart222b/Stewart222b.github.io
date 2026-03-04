@@ -1,3 +1,12 @@
+/* Hide theme default masthead/navigation */
+.masthead,
+.site-nav,
+.navigation,
+.top-bar {
+  display: none !important;
+}
+
+/* 
 /* ========================================
    Academic/Professional Portfolio Style
    ======================================== */
