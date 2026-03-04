@@ -105,9 +105,9 @@ body {
   border-radius: var(--radius-md);
   transition: all var(--transition-fast);
   white-space: nowrap;
-  display: inline-block;
-  height: auto;
+  line-height: 1.2;
 }
+
 
 .nav-item:hover {
   background: var(--bg-secondary);
