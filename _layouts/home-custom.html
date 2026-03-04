@@ -8,12 +8,52 @@ layout: default
 
 {% include lang-switch-floating.html %}
 
-<main id="main" class="page-content" aria-label="Content">
-  <div class="archive">
-    {% include hero.html %}
+<div class="page-wrapper">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <nav class="site-nav">
+      <a href="/" class="site-title">Stewart222b</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Profile Section -->
+    <div class="profile-section">
+      <img 
+        src="{{ site.author.avatar | relative_url }}" 
+        alt="{{ site.author.name }}" 
+        class="profile-image"
+      >
+      <h1 class="profile-name">{{ site.author.name }}</h1>
+      <p class="profile-title">Developer</p>
+      
+      <!-- Social Links -->
+      <div class="social-links">
+        <a href="mailto:{{ site.email }}" class="social-link" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        {% if site.github_username %}
+        <a href="https://github.com/{{ site.github_username }}" class="social-link" title="GitHub" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        {% endif %}
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
     {% include about-section.html %}
     {% include projects-section.html %}
     {% include skills-section.html %}
     {% include contact-section.html %}
-  </div>
-</main>
+    
+    <footer class="page-footer">
+      © {{ site.time | date: "%Y" }} {{ site.author.name }}. Powered by <a href="https://jekyllrb.com">Jekyll</a> & <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/">Minimal Mistakes</a>.
+    </footer>
+  </main>
+</div>

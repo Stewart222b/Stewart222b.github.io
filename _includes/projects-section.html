@@ -1,32 +1,30 @@
-<section class="projects-section" id="projects">
-  <h2 class="section-title" data-i18n="projects.title">My Projects</h2>
+<section class="content-section" id="projects">
+  <h2 class="section-title" data-i18n="projects.title">Projects</h2>
   <div class="projects-grid">
     {% for project in site.data.portfolio.projects %}
     <div class="project-card">
-      <div class="project-content">
-        <h3 class="project-title">
-          {% if site.lang == 'zh' %}{{ project.title.zh }}{% else %}{{ project.title.en }}{% endif %}
-        </h3>
-        <p class="project-description">
-          {% if site.lang == 'zh' %}{{ project.description.zh }}{% else %}{{ project.description.en }}{% endif %}
-        </p>
-        <div class="project-tags">
-          {% for tag in project.tags %}
-          <span class="project-tag">{{ tag }}</span>
-          {% endfor %}
-        </div>
-        <div class="project-links">
-          {% if project.github %}
-          <a href="{{ project.github }}" target="_blank" class="project-link">
-            <i class="fab fa-github"></i> GitHub
-          </a>
-          {% endif %}
-          {% if project.demo %}
-          <a href="{{ project.demo }}" target="_blank" class="project-link">
-            <i class="fas fa-external-link-alt"></i> Demo
-          </a>
-          {% endif %}
-        </div>
+      <h3 class="project-title">
+        {% if site.lang == 'zh' %}{{ project.title.zh }}{% else %}{{ project.title.en }}{% endif %}
+      </h3>
+      <p class="project-description">
+        {% if site.lang == 'zh' %}{{ project.description.zh }}{% else %}{{ project.description.en }}{% endif %}
+      </p>
+      <div class="project-tags">
+        {% for tag in project.tags %}
+        <span class="project-tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      <div class="project-links">
+        {% if project.github %}
+        <a href="{{ project.github }}" target="_blank" class="project-link">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        {% endif %}
+        {% if project.demo %}
+        <a href="{{ project.demo }}" target="_blank" class="project-link">
+          <i class="fas fa-external-link-alt"></i> Demo
+        </a>
+        {% endif %}
       </div>
     </div>
     {% endfor %}

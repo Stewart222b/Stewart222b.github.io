@@ -1,17 +1,10 @@
-<section class="about-section" id="about">
+<section class="content-section" id="about">
   <h2 class="section-title" data-i18n="about.title">About Me</h2>
-  <div class="about-content">
-    <p class="about-intro" data-i18n="about.intro">Hi, I'm {{ site.author.name }}</p>
-    <p class="about-text" data-i18n="about.description">{{ site.author.bio }}</p>
-    <div class="about-meta">
-      <div class="about-meta-item">
-        <i class="fas fa-fw fa-location-dot"></i>
-        <span>{{ site.author.location }}</span>
-      </div>
-      <div class="about-meta-item">
-        <i class="fas fa-fw fa-envelope"></i>
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-      </div>
-    </div>
-  </div>
+  <p class="about-intro" data-i18n="about.intro">Hi, I'm Larry</p>
+  <p class="about-text" data-i18n="about.description">I am a passionate developer with a keen interest in building innovative solutions. I love turning ideas into reality through code.</p>
+  
+  <ul class="about-links">
+    <li><i class="fas fa-map-marker-alt"></i> Shanghai, CN</li>
+    <li><i class="fas fa-envelope"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+  </ul>
 </section>
